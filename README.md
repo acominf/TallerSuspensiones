@@ -1,6 +1,6 @@
 # TallerSuspensiones
 
-![Logo](logo.png)
+![Logo](docs/logo.png)
 
 ## Objetivo de la aplicación
 El objetivo de la aplicación es dar a conocer el negocio y poder ir guardando los datos de los clientes que requieren facturas así como empezar a dar citas a los clientes.
