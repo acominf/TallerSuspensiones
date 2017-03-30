@@ -1,0 +1,40 @@
+body{
+    background-image: url("fondo.jpg");
+}
+
+#logo
+{
+    align-items: center;
+}
+
+#titulo{   
+	background-color: black;
+    border-radius: 1px;
+    height: 60px;
+	font-size: 40px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+    text-align: center;
+}
+
+.sub{   
+	background-color: black;
+    border-radius: 1px;
+    height: 15px;
+	font-size: 15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+p{  
+    background-color: sandybrown;
+    height: 15px;
+	font-size: 15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
