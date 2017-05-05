@@ -62,25 +62,66 @@ div.menutema a{
 .menutema a:hover{
     background-color: deepskyblue;
 }
-
-.sub{   
-	text-align: center;
-    font-size: 20px;
-    color:black;   /*Color Encabezado*/
-    background-color: cadetblue;
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 50px;
+/*Transiciones*/
+.slider{
+		width:700px;
+		height:500px;
+        margin-top: 20px;
+		border:5px solid cadetblue;
+		margin:0px auto;
+		border-radius:20px;
+	}
+.divImg > img{
+	width:500px;
+	height:350px;
+	position:absolute;
 }
-
-p{  
-    text-align: center;
-    font-size: 15px;
-    color: black;
-    background-color: sandybrown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 50px;
+.flechas
+{
+	width:100%;
+	margin:0px auto;
+	height:80px;
+	color:gray;
+}
+.atras{
+		float:left;
+		margin-left:20px;
+	}
+.delante{
+	float:right;
+	margin-right:20px;
+}
+.flechas i:hover{
+	color: cadetblue;
+}
+.images{
+	width:500px;
+	top:300px;
+    left:450px;
+	position:absolute;
+	visibility:hidden;
+}
+.principal{
+	width:800px;
+	height:100px;
+	position:absolute;
+	top:450px;
+}
+.recorre{
+	width:600px;
+	height:80px;
+	top:15px;
+	position:absolute;
+	left:400px;
+}
+.mark
+{
+	width:20px;
+	float:left;
+	margin-top:250px;
+	margin-left:100px;
+	color: gray;
+}
+.mark:hover{
+	color: cadetblue;
 }
