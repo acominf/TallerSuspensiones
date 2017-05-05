@@ -1,40 +1,86 @@
 body{
-    background-image: url("fondo.jpg");
+    margin: 0;
 }
 
-#logo
-{
-    align-items: center;
-}
-
-#titulo{   
-	background-color: black;
-    border-radius: 1px;
-    height: 60px;
-	font-size: 40px;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white; 
+div.encabezado{
     text-align: center;
+    font-size: 40px;
+    color:wheat;
+    background-color: cadetblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+div.menu{
+    background-color: #555;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.menu a{
+    display: inline-block;
+    padding: 10px 14.5%;
+}
+
+a{
+    font-size: 25px;	
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    text-align:center;
+}
+
+.menu a:hover{
+    background-color: deepskyblue;
+}
+
+.encabezadotema{
+ text-align: center;
+    font-size: 20px;
+    color:black;   /*Color Encabezado*/
+    background-color: cadetblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+div.menutema{
+    background-color: cadetblue; /*Color Menu*/
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.menutema a{
+    display: inline-block;
+    padding: 5px 5.85%;    /*Tamaño del menu*/
+}
+
+.menutema a:hover{
+    background-color: deepskyblue;
 }
 
 .sub{   
-	background-color: black;
-    border-radius: 1px;
-    height: 15px;
-	font-size: 15px;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
+	text-align: center;
+    font-size: 20px;
+    color:black;   /*Color Encabezado*/
+    background-color: cadetblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
 }
 
 p{  
-    background-color: sandybrown;
-    height: 15px;
-	font-size: 15px;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
     text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color: sandybrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
 }
