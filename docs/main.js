@@ -6,11 +6,9 @@ var listaImg;
 	var sentido;
 	function inicio(){
 		listaImg= document.getElementById("imagenes").children;
-		//listaTex= document.getElementById("textos").children;
 		cont=0;
 		opacidad = 1;
 		sentido=0;
-	
 
 		for(i=0 ; i<listaImg.length; i++)
 		{
@@ -18,25 +16,18 @@ var listaImg;
 		}
 		listaImg[cont].style.opacity = String(opacidad);
 		listaImg[cont].style.visibility = "visible";
-		//listaTex[cont].style.opacity = String(opacidad);
-		//listaTex[cont].style.visibility = "visible";
 	    interval = setInterval(recorridoImagen,30);
-	
 	}
 	function cambiaMark(index)
 	{
 		clearInterval(interval);
 		listaImg[cont].style.visibility = "hidden";
 		listaImg[cont].style.opacity = 0;
-		//listaTex[cont].style.visibility = "hidden";
-		//listaTex[cont].style.opacity = 0;
 		cont = index;
 		opacidad=1;
 		direccion= 0;
 		listaImg[cont].style.visibility = "visible";
 		listaImg[cont].style.opacity = 1;
-		//listaTex[cont].style.visibility = "visible";
-		//listaTex[cont].style.opacity = 1;
 		interval = setInterval(recorridoImagen,30);
 	}
 	
@@ -45,8 +36,6 @@ var listaImg;
 		clearInterval(interval);
 		listaImg[cont].style.visibility = "hidden";
 		listaImg[cont].style.opacity = 0;
-		//listaTex[cont].style.visibility = "hidden";
-		//listaTex[cont].style.opacity = 0;
 		if(dir==0)
 		{
 			if(cont == 0)
@@ -69,9 +58,7 @@ var listaImg;
 		opacidad=1;
 		direccion= 0;
 		listaImg[cont].style.visibility = "visible";
-		listaImg[cont].style.opacity = 1;
-		//listaTex[cont].style.visibility = "visible";
-		//listaTex[cont].style.opacity = 1;
+		listaImg[cont].style.opacity = 1;;
 		interval = setInterval(recorridoImagen,30);
 	}
 	function recorridoImagen()
@@ -91,7 +78,6 @@ var listaImg;
 		opacidad = opacidad+0.01;
 		if(opacidad < 1){
 		       listaImg[cont].style.opacity = String(opacidad);
-		       //listaTex[cont].style.opacity = String(opacidad);
 		}else
 		 {
 		    sentido=0;   
@@ -106,9 +92,6 @@ var listaImg;
 			sentido=1;
 			listaImg[cont].style.visibility = "hidden";
 			listaImg[cont].style.opacity = 0;
-			//listaTex[cont].style.visibility = "hidden";
-			//listaTex[cont].style.opacity = 0;
-
 			cont++;
 			if(cont > listaImg.length-1 )
 			{
@@ -116,11 +99,8 @@ var listaImg;
 			}
 			listaImg[cont].style.visibility = "visible";
 			listaImg[cont].style.opacity = 0;
-			//listaTex[cont].style.visibility = "visible";
-			//listaTex[cont].style.opacity = 0;
 		}else
 		{
 			 listaImg[cont].style.opacity = String(opacidad);
-			// listaTex[cont].style.opacity = String(opacidad);
 		}
 	}

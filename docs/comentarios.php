@@ -4,27 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Informacion</title>
+    <title>Comentarios</title>
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="estiloProyecto.css" type="text/css">
 </head>
-<body>
+<body onload="inicio()">
     <div class="encabezadotema">
         <h1>Suspensiones Pancho</h1>
     </div>
     <div class="menutema">
-	  <a href="index.php">Home</a>
+      <a href="index.php">Home</a>
       <a href="informacion.html">Informacion</a>
       <a href="sesion.php">Citas</a>
       <a href="sesionAdmin.php">Admin</a>
-      <a href="comentarios.html">Comentarios</a>
+      <a href="comentarios.php">Comentarios</a>
     </div>
-      <h2>Dirección</h2>
-      <h3>20 de Noviembre 725 Zona Centro</h3>
-      <h2>Telefono</h2>
-      <h3>8124492</h3>
-      <h2>Horario</h2>
-      <h3>Lunes a Viernes de 9am-7pm y Sabados de 9am-2pm</h3>
-      <h2>Servicios</h2>
-      <h3>Alineacion, Balanceo.....</h3>
 </body>
 </html>

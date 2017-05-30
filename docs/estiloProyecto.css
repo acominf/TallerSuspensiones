@@ -2,6 +2,19 @@ body{
     margin: 0;
 }
 
+table{
+	background-color: cadetblue;
+	border: 2px blue;
+}
+
+form{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
 div.encabezado{
     text-align: center;
     font-size: 40px;
@@ -28,10 +41,20 @@ div.menu a{
 
 a{
     font-size: 25px;	
-    text-decoration: none;
+    text-decoration:blink;
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
     text-align:center;
+}
+
+h2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+h3{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
 }
 
 .menu a:hover{
@@ -39,8 +62,8 @@ a{
 }
 
 .encabezadotema{
- text-align: center;
-    font-size: 20px;
+ 	text-align: center;
+    font-size: 22px;
     color:black;   /*Color Encabezado*/
     background-color: cadetblue;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -48,6 +71,7 @@ a{
     margin-right: 5%;
     margin-top: 50px;
 }
+
 div.menutema{
     background-color: cadetblue; /*Color Menu*/
     margin-left: 5%;
@@ -56,7 +80,7 @@ div.menutema{
 
 div.menutema a{
     display: inline-block;
-    padding: 5px 5.85%;    /*Tamaño del menu*/
+    padding: 4px 6%;    /*Tamaño del menu*/
 }
 
 .menutema a:hover{
@@ -64,7 +88,7 @@ div.menutema a{
 }
 /*Transiciones*/
 .slider{
-		width:700px;
+		width:800px;
 		height:500px;
         margin-top: 20px;
 		border:5px solid cadetblue;
@@ -72,7 +96,7 @@ div.menutema a{
 		border-radius:20px;
 	}
 .divImg > img{
-	width:500px;
+	width:550px;
 	height:350px;
 	position:absolute;
 }
@@ -95,9 +119,9 @@ div.menutema a{
 	color: cadetblue;
 }
 .images{
-	width:500px;
+	width:550px;
 	top:300px;
-    left:450px;
+    left:400px;
 	position:absolute;
 	visibility:hidden;
 }
