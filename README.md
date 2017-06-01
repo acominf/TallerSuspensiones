@@ -22,6 +22,7 @@ La descripción funcional de la aplicación es que los clientes tendran la opcio
 - COMO administrador QUIERO agregar y/o modificar servicios y costos PARA tener actualizada la página
 
 ### Diagrama de componentes UML
+![UML](docs/UML.png)
 
 ### Diagrama entidad-relacion de la Base de Datos
 
