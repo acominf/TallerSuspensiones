@@ -21,6 +21,14 @@ La descripción funcional de la aplicación es que los clientes tendran la opcio
 - COMO administrador QUIERO consultar las citas que se agendaron PARA poder comunicarlo a los trabajadores 
 - COMO administrador QUIERO agregar y/o modificar servicios y costos PARA tener actualizada la página
 
+### Diagrama de componentes UML
+
+### Diagrama entidad-relacion de la Base de Datos
+
+### Video Ilustrativo
+
+### Enlace
+
 ## Autor(es)
 El autor del proyecto es:
 - Beatriz Adriana Segura Luevano (@BeatrizSegura)
