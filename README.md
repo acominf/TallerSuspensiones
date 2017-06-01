@@ -25,10 +25,12 @@ La descripción funcional de la aplicación es que los clientes tendran la opcio
 ![UML](docs/UML2.png)
 
 ### Diagrama entidad-relacion de la Base de Datos
+![SQL](docs/sql.png)
 
 ### Video Ilustrativo
 
 ### Enlace
+http://148.224.194.33/tallersu/
 
 ## Autor(es)
 El autor del proyecto es:
